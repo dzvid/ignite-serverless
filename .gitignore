@@ -1,3 +1,6 @@
+# Environment variabless
+.env
+
 # Package directories
 node_modules
 jspm_packages
@@ -8,5 +11,5 @@ jspm_packages
 # Webpack directories
 .webpack
 
-# Environment variabless
-.env
+# DynamoDB directories
+.dynamodb

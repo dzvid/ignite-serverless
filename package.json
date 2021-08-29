@@ -4,6 +4,7 @@
   "description": "Serverless aws-nodejs-typescript template",
   "scripts": {
     "dev": "serverless offline",
+    "dynamo:start": "serverless dynamodb start",
     "deploy": "sls deploy -v"
   },
   "dependencies": {

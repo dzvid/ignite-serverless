@@ -1,0 +1,16 @@
+var params = {
+  TableName: "users_certificates",
+};
+
+function onScan(err, data) {
+  if (err) {
+    console.log(
+      "Unable to scan the table. Error JSON: ",
+      JSON.stringify(err, null, 2)
+    );
+  } else {
+    console.log(data)
+  }
+}
+
+dynamodb.scan(params, onScan);
